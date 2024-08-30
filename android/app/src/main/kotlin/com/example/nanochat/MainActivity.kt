@@ -1,4 +1,4 @@
-package com.example.nanochat
+package com.mobile.nanochat
 
 import io.flutter.embedding.android.FlutterActivity
 
