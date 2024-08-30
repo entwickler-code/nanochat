@@ -14,6 +14,11 @@ dependencies:
   cloud_firestore: ^4.8.4
   intl: ^0.18.1
   cloud_functions: ^5.1.0
+  upgrade: ^0.0.8
+  puby: ^1.35.0
+  flutter_prime: ^0.0.1-alpha.5
+  prime: ^0.0.1-alpha.5
+  google_maps_place_search_advance: ^0.1.3
 
 dev_dependencies:
   flutter_test:
