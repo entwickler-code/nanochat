@@ -25,10 +25,7 @@ class DefaultFirebaseOptions {
           'try to add using FlutLab Firebase Configuration',
         );
       case TargetPlatform.iOS:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for iOS - '
-          'try to add using FlutLab Firebase Configuration',
-        );
+        return ios;
       case TargetPlatform.macOS:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for macos - '
@@ -50,6 +47,16 @@ class DefaultFirebaseOptions {
         );
     }
   }
+
+  static const FirebaseOptions ios = FirebaseOptions(
+    apiKey: 'AIzaSyCsIj1N81CSe6fmAc3q-hKrON4h206MGCw',
+    iosBundleId: 'com.example.nanochat',
+    appId: '1:615106463032:ios:60c24970a8eeea6fe0adcd',
+    storageBucket: 'nanochat-60c2a.appspot.com',
+    messagingSenderId: '615106463032',
+    iosClientId: 'undefined',
+    projectId: 'nanochat-60c2a'
+  );
 
   static const FirebaseOptions web = FirebaseOptions(
       apiKey: "AIzaSyAhE5iTdU1MflQxb4_M_uHiXJR9EC_mE_I",
